@@ -1,0 +1,18 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "npm install": true,
+        "bun": true,
+        "Get-Command": true,
+        "npm cache": true,
+        "npm config": true,
+        "Test-Path": true,
+        "npm run dev:all": true,
+        "npx prisma": true,
+        "npm --prefix Mak-it-studio": true,
+        "/^node --test Mak-it-studio/tests$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "npx eslint": true
+    }
+}

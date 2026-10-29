@@ -1,0 +1,9 @@
+services:
+  make-it-studio:
+    build: .
+    container_name: make-it-studio
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
